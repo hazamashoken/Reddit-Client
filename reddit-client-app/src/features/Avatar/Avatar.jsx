@@ -5,7 +5,7 @@ const Avatar = (props) => {
     const {name} = props;
     return(
         <img 
-            src=''
+            src={`https://api.adorable.io/avatars/10/${name}`}
             alt={`${name} profile`}
             className='avatar-profile-image'
         />
